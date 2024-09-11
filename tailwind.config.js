@@ -20,11 +20,7 @@ export default {
         "custom" : "0.25px 0.25px 5px 0.25px rgba(2, 2, 2, 0.2)"
       },
       colors : {
-        "active" : "#2dc653",
-        "hover" : "",
-        "idle" : "",
-        "primary" : "",
-        "cta" : "#10451d"
+        "primary" : "#058c42",
       }
     },
   },

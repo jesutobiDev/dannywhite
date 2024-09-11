@@ -30,7 +30,7 @@ const Navbar: FC = () => {
   };
 
   return (
-    <nav className="w-full text-lg fixed z-50 top-0 left-0 px-5 md:px-10 pt-10 pb-7 bg-white">
+    <nav className="w-full text-lg fixed z-50 top-0 left-0 px-5 md:px-10 pt-5 md:pt-10 pb-7 bg-white">
       <div className="flex justify-between items-center bg-white shadow-custom w-full h-20 px-5 rounded-2xl relative">
         <NavLink to="/">
           <p className="underline-magical logo font-semibold cursor-pointer text-2xl">
@@ -51,8 +51,8 @@ const Navbar: FC = () => {
                 className={({ isActive }) =>
                   `px-10 md:px-5 lg:px-10 py-3 ${
                     isActive
-                      ? "bg-active/70 text-gray-100 rounded-full"
-                      : "text-gray-500"
+                      ? "bg-primary text-white rounded-full"
+                      : "text-black"
                   }`
                 }
                 onClick={toggleMobileMenu}

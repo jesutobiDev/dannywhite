@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-      <div className="m-10 min-h-svh 2xl:container 2xl:mx-auto relative">
+      <div className="m-5 md:m-10 min-h-svh 2xl:container 2xl:mx-auto relative">
         <Navbar />
         <main className="absolute left-0 top-28 w-full">{children}</main>
       </div>

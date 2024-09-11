@@ -1,9 +1,10 @@
 import { FC } from 'react';
+import Hero from '../ui components/Hero';
 
 const Home: FC =() => {
     return (
-        <div>
-            <h1>Welcome to the Home Page</h1>
+        <div className='w-full'>
+            <Hero/>
         </div>
     )
 }
