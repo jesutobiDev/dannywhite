@@ -19,8 +19,8 @@ const Hero: FC = () => {
         Discover My Works
       </Link>
       <div className="mt-10 w-full h-auto flex-1 image-contain rounded-t-3xl overflow-hidden bg-gradient-to-r from-primary via-primary/30 to-primary">
-        <div className="backdrop-blur-lg bg-white/30 px-10 pt-10">
-          <img src={heroImg} alt="hero-img" className="w-full h-auto" />
+        <div className="backdrop-blur-lg bg-white/30 px-8 md:px-10 pt-8 md:pt-10">
+          <img src={heroImg} alt="hero-img" className="w-full h-auto rounded-2xl" />
         </div>
       </div>
     </div>
