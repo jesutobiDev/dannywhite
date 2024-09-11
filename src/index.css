@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+PL:wght@100..400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+.logo{
+    font-family: "Playwrite PL", cursive;
+}
+
+::selection{
+  background-color: #b7efc5;
+}
+
+@layer components {
+    .underline-magical {
+      background-image: linear-gradient(120deg, #058C42 0%, #FFFFFF, #16DB65 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 0.2em;
+      background-position: 0 95%;
+      transition: background-size 0.25s ease-in;
+    }
+  
+    .underline--magical:hover {
+      background-size: 100% 88%;
+    }
+  }
+  
